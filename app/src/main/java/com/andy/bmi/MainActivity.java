@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         float bmi = weight / (height * height);
         Log.d("MainActivity", bmi + "");
         Intent intent = new Intent(this, ResultActivity.class);
-       // intent.putExtra("BMI",bmi);
+       //intent.putExtra("BMI",bmi);
         startActivity(intent.putExtra("BMI",bmi));
 
 //        Toast.makeText(this,getString(R.string.yourbmi)+String.valueOf(bmi),Toast.LENGTH_LONG).show();
